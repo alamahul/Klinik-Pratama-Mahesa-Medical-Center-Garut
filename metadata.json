@@ -1,0 +1,6 @@
+{
+  "name": "Klinik Mahesa Medical Center",
+  "description": "Landing page resmi Klinik Pratama Mahesa Medical Center di Tarogong Kidul, Garut. Melayani pasien BPJS, JKN Mobile, dan umum dengan pelayanan tulus dan profesional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
