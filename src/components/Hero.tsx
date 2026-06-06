@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { MessageCircle, Star, ShieldCheck, CheckCircle2, ChevronRight, Accessibility, Clock } from "lucide-react";
 import { CLINIC_INFO } from "../data";
 import { useLanguage } from "../contexts/LanguageContext";
+import headerImage from "../assets/images/header-hd-resolution.jpg";
 
 export default function Hero() {
   const { lang } = useLanguage();
@@ -118,7 +119,7 @@ export default function Hero() {
             {/* Real generated graphic container */}
             <div className="relative bg-white p-2 rounded-3xl shadow-2xl border border-slate-100 overflow-hidden w-full max-w-md lg:max-w-none">
               <img
-                src="./src/assets/images/header-hd-resolution.jpg"
+                src={headerImage}
                 alt="Mahesa Medical Center Lobby"
                 className="rounded-2xl w-full h-auto object-cover aspect-video md:aspect-4/3 shadow-sm bg-slate-50"
                 referrerPolicy="no-referrer"
